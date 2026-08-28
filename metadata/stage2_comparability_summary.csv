@@ -1,0 +1,2 @@
+stage2f_status,assessment_count,directly_comparable_count,comparable_with_transformation_count,comparable_with_caveat_count,context_only_count,not_comparable_count,key_conclusion
+PASS_WITH_CAVEAT,17,0,3,4,3,7,"No assessed cross-source use is directly comparable without transformation, caveat, contextual restriction, or exclusion."

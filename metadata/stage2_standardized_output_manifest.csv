@@ -1,0 +1,8 @@
+source_id,output_path,output_role,observation_count,stage2e_status,key_scope_note
+SRC010,data/standardized/src010_polling_institute_2022_driver_observations.csv,primary_quantitative,18,standardized,Daily income layer remains unspecified; historical values are retrospective recall.
+SRC013,data/standardized/src013_ideas_2025_driver_observations.csv,primary_quantitative,18,standardized_with_semantic_caveats,"Mixed fuel-food cost bundle, driver-reported deductions, ambiguous distance, and 62/67 locality discrepancy remain explicit."
+SRC017,data/standardized/src017_indef_pppi_2025_driver_context_observations.csv,contextual_survey,16,standardized_context_only,Perception/preference evidence is not realized deduction or causal unit-economics evidence.
+SRC029,data/standardized/src029_ideas_2023_driver_observations.csv,primary_quantitative,14,standardized_with_temporal_caveats,Retrospective earnings recall is separated from the contemporaneous 2022-2023 sample summary.
+SRC030,data/standardized/src030_ideas_2020_driver_observations.csv,primary_quantitative,6,standardized_with_definition_caveats,Only sufficiently resolved numerical observations are retained; source-defined net remains unmapped.
+SRC020,,supporting_association,0,retained_without_numeric_rows,Study scope and association evidence retained; no sufficiently defined numerical table values entered in Stage 2E.
+SRC025,,companion_same_program,0,not_separately_standardized_same_program,Companion presentation to SRC017; overlapping figures are not duplicated.

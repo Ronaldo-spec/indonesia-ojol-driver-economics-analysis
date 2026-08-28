@@ -1,0 +1,2 @@
+stage,validation_status,validation_check_count,pass_count,caveat_count,fail_count,standardized_observation_count,comparability_assessment_count,reference_input_count,closure_eligibility,key_conclusion
+Stage 2G,PASS_WITH_CAVEAT,32,28,4,0,72,17,6,eligible_for_stage2h,"Extraction and standardization integrity checks pass. Source-definition, denominator, geography, comparability, and unit-economics coverage caveats remain binding."

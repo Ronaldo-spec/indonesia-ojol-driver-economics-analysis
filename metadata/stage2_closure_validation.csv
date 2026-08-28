@@ -1,0 +1,7 @@
+check_id,check_name,status,evidence
+S2H001,Stage 2G permits closure,PASS,Stage 2G closure eligibility=eligible_for_stage2h
+S2H002,Stage 2 contains the validated 72 standardized observations,PASS,Observed=72
+S2H003,Stage 2 contains 17 comparability assessments,PASS,Observed=17
+S2H004,Stage 2 extraction validation has zero failures,PASS,FAIL count=0
+S2H005,Stage 2 closure preserves the expected caveated status,PASS,Closure status=PASS_WITH_CAVEAT
+S2H006,Stage 3 transition is explicitly eligible,PASS,Next-stage eligibility=eligible

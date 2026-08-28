@@ -1,0 +1,44 @@
+field_name,field_group,data_type,required,definition,stage2e_rule
+observation_id,identity,string,yes,Unique standardized observation identifier.,Must be unique across all Stage 2 standardized source files.
+source_id,identity,string,yes,Canonical source identifier from the Stage 1 source registry.,Must resolve to the Stage 1 registry.
+source_locator,traceability,string,yes,"Page, figure, table, or slide locator within the source.",Must support reinspection of the source observation.
+source_metric_code,mapping,string,yes,Stage 2 source-specific semantic code.,May be narrower than a locked Stage 0 project metric.
+source_metric_label,original,string,yes,Source-preserved metric/question label.,Do not replace with a stronger project interpretation.
+source_value_text,original,string,yes,Source-preserved value text.,Retain wording/format sufficient to audit the normalized value.
+source_unit,original,string,yes,Source-reported unit or basis.,Preserve even when normalized unit is also recorded.
+metric_family,mapping,string,yes,"Broad project family such as earnings, deduction, activity, operating_cost, incentive, or context.",Does not imply exact project-metric equivalence.
+project_metric,mapping,string,no,Locked Stage 0 metric only when semantic mapping is defensible.,Leave blank rather than force an ambiguous source metric.
+mapping_status,mapping,string,yes,Status describing the source-to-project mapping.,"Used to distinguish exact, caveated, temporal-caveat, category, and unmapped records."
+value_numeric,value,number,yes,Normalized numeric value of the reported observation.,No imputation or inferred residual categories.
+unit,value,string,yes,Normalized unit of value_numeric.,"Examples: percent, IDR/day, hours/day, orders/day."
+statistic_type,value,string,yes,Statistic represented by the value.,"Examples: mean, share, source_reported_ratio, multi_response_share."
+category_label,distribution,string,no,Source-preserved category or bracket label.,Required for distribution/bracket observations.
+category_lower_bound,distribution,number,no,Numeric lower bound when a category has one.,Open/closed interval semantics remain in category_label.
+category_upper_bound,distribution,number,no,Numeric upper bound when a category has one.,Open/closed interval semantics remain in category_label.
+category_bound_unit,distribution,string,no,Unit applying to category bounds.,"Implementation field added so monetary, time, order, distance, and percentage brackets are unambiguous."
+metric_denominator_n,denominator,number,no,Observation-specific denominator where reported or defensibly identified.,Distinct from total sample size.
+denominator_definition,denominator,string,yes,Population/subgroup definition used by the metric.,Unresolved denominators remain explicit.
+sample_size,sample,number,yes,Overall relevant source sample size.,Does not replace metric-specific denominator.
+sample_population,sample,string,yes,Source sample/population description.,Preserve sampling and inference limits.
+observation_period_start,time,string,no,Beginning of the source-defined observation period.,Partial dates may be retained when the source is not more precise.
+observation_period_end,time,string,no,End of the source-defined observation period.,Do not substitute publication or retrieval date.
+temporal_evidence_status,time,string,yes,Temporal evidence class.,"Examples: contemporaneous, retrospective_recall, reference_period."
+geography,scope,string,yes,Geographic coverage of the observation.,Preserve source discrepancies rather than silently resolve them.
+platform,scope,string,yes,Platform scope.,Multi-platform values are not allocated to individual platforms.
+service_type,scope,string,yes,Service scope.,Mixed service observations are not silently split.
+vehicle_type,scope,string,yes,Vehicle universe.,Primary project universe is motorcycle.
+observation_level,scope,string,yes,"Sample summary, sample distribution, or subsample distribution.",Supports denominator and inference interpretation.
+evidence_type,evidence,string,yes,"Evidence form such as survey_self_report, survey_perception, or survey_preference.",Perceptions are not converted into realized economic values.
+value_provenance,evidence,string,yes,Observed/source_reported/derived/modelled/scenario class.,Stage 2E records here are source-reported values.
+earnings_layer,economics,string,no,"Gross, source-defined net, unspecified, or other earnings layer.",Prevents generic income from being treated as project gross/net.
+value_time_basis,economics,string,no,"Day, week, month, or other period basis.",Required for time-normalized interpretation.
+working_time_basis,economics,string,no,"Online, productive, source-reported unspecified, or other basis.",Generic working time is never relabelled online/productive.
+distance_basis,economics,string,no,"Paid-trip, pickup, deadheading, total-work, or source-reported unspecified basis.",Ambiguous distance is not mapped to total work-related distance.
+cost_boundary,economics,string,no,Operating-cost boundary represented by the source value.,Mixed fuel plus food/drink bundles remain outside project operating-cost totals.
+currency,currency,string,no,Currency relevant to the observation or bracket.,IDR for nominal Indonesian monetary observations.
+nominal_real_status,currency,string,no,Nominal or real status.,Stage 2 preserves nominal source values.
+comparability_use,comparability,string,no,Intended analytical comparison.,Completed in Stage 2F.
+comparability_status,comparability,string,no,Comparison-specific comparability class.,Intentionally left blank in Stage 2E.
+transformation_applied,transformation,string,yes,Transformation performed in Stage 2E.,Must be none for source-preserved Stage 2E records.
+transformation_formula,transformation,string,no,Formula if a later documented transformation is performed.,Blank in Stage 2E.
+extraction_notes,traceability,string,yes,Analytical note preserving source-definition caveats.,Must record material ambiguity without resolving it by assumption.

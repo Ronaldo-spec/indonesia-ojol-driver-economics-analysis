@@ -1,0 +1,21 @@
+source_metric_code,metric_family,project_metric,mapping_status,standardization_rule,blocked_interpretation
+explicit_gross_driver_earnings,earnings,driver_gross_service_earnings,mapped_exact,Map only when the source explicitly identifies driver earnings as gross/before operating costs.,"Do not infer customer-facing fare, post-deduction receipt, or project net earnings."
+explicit_gross_driver_earnings_recalled,earnings,driver_gross_service_earnings,mapped_with_temporal_caveat,Preserve gross semantics but classify historical values as retrospective recall.,Do not treat recalled historical values as independent panel/survey waves.
+source_reported_daily_income_unspecified_layer,earnings,,source_defined_unmapped,Preserve generic daily income when the source does not establish gross/net/receipt semantics.,"Do not relabel as driver gross service earnings, driver receipts, or project net earnings."
+source_defined_net_after_mixed_cost_bundle,earnings,,source_defined_unmapped,Retain the source-defined net value and its source cost boundary.,Do not classify as project net operating earnings when the source subtracts food/drink or omits required project cost components.
+source_defined_net_income_unspecified_cost_basis,earnings,,source_defined_unmapped,Retain the source-defined net label when the exact deducted components are unresolved.,Do not classify as project net operating earnings.
+fuel_food_daily_cost_bundle,operating_cost,,source_defined_unmapped,Retain as a mixed source bundle with cost_boundary=mixed_work_personal.,Do not include the full bundle in project operating costs because food/drink is personal consumption.
+fuel_food_cost_share_of_gross,operating_cost,,source_defined_unmapped,Retain the source-reported ratio and mixed cost boundary.,Do not report as project operating-cost share.
+driver_reported_deduction_rate_category,deduction,,source_defined_unmapped,Retain as driver-reported deduction evidence and preserve the reported bracket/rate.,Do not convert into realized_driver_deduction_rate without matched transaction evidence.
+completed_orders_per_day,activity,order_count,mapped_exact_or_category,Map when the source explicitly describes completed orders.,Do not assume cancellations or other excluded orders are included.
+daily_distance_source_reported,activity,,source_defined_unmapped,Retain daily distance with distance_basis=source_reported_unspecified.,Do not map to paid_trip_distance_km or total_work_related_distance_km unless the source defines the basis.
+generic_working_hours,activity,working_hours_source_reported,mapped_with_caveat,Map generic working time only to the source-reported working-hours metric.,Do not relabel as online_hours or productive_or_engaged_hours.
+workdays_per_week,activity,,source_defined_unmapped,Retain source-specific workday frequency for later workload analysis.,Do not invent a locked Stage 0 project metric solely to force mapping.
+bonus_program_reported_available,incentive,,source_defined_unmapped,Retain prevalence of reported program availability.,Do not map prevalence to the monetary incentive_bonus metric.
+bonus_receipt_frequency,incentive,,source_defined_unmapped,Retain source-reported bonus receipt frequency and denominator.,Do not infer incentive value or contribution to earnings.
+bonus_receipt_experience,incentive,,source_defined_unmapped,Retain whether respondents report ever receiving an incentive/bonus.,Do not map prevalence to a monetary incentive amount.
+promo_impact_perception,context,,source_defined_unmapped,Retain as survey perception evidence.,"Do not interpret as an observed causal change in driver earnings, orders, or incentives."
+platform_loyalty_reason,context,,source_defined_unmapped,Retain multi-response preference/reason shares.,Do not treat reasons as realized economic effects.
+commission_platform_preference,context,,source_defined_unmapped,Retain preference between stated commission scenarios.,Do not treat scenario commission values as realized driver deductions.
+commission_service_difference_perception,context,,source_defined_unmapped,Retain perceived differences in treatment/service.,Do not infer realized causal effects of commission levels.
+perceived_difference_reason,context,,source_defined_unmapped,Retain subgroup multi-response reasons.,Do not generalize subgroup perception shares to the full driver population.
