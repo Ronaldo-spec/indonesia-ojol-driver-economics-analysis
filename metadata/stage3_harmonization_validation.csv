@@ -1,0 +1,20 @@
+check_id,check_name,status,severity,evidence,analytical_implication
+S3C001,Every Stage 2 standardized observation receives one harmonization assessment,PASS,blocking,Standardized observations=72; assessments=72,Stage 3C must preserve complete observation-level lineage.
+S3C002,Harmonization assessments remain unique by observation,PASS,blocking,Duplicate assessment IDs=[],Each standardized observation may have only one Stage 3C semantic decision.
+S3C003,Retained project metrics exactly match the locked Stage 2 mapping,PASS,blocking,Violations=[],Stage 3C may retain defensible mappings but cannot silently rename project metrics.
+S3C004,Source-defined and contextual observations remain outside locked project metrics,PASS,blocking,Violations=[],Ambiguous or contextual evidence cannot be forced into the project metric dictionary.
+S3C005,No Stage 2 mapping violates the Stage 3C semantic safeguards,PASS,blocking,Rejected Stage 2 mappings=[],A rejected mapping would require Stage 2 semantic correction before Stage 3D.
+S3C006,Driver-reported deductions remain separate from realized deduction metrics,PASS,blocking,Violations=[],Driver-reported deduction evidence cannot substitute for realized transaction deductions.
+S3C007,Mixed work-personal bundles remain outside project operating costs,PASS,blocking,Violations=[],Personal food/drink expenditure cannot enter project operating-cost totals.
+S3C008,Generic working time remains separate from online and productive time,PASS,blocking,Violations=[],Per-hour economics must preserve the reported time basis.
+S3C009,Ambiguous distance remains separate from total work-related distance,PASS,blocking,Violations=[],Fuel and per-km analysis cannot silently use ambiguous distance as total work distance.
+S3C010,"Source-defined net income remains separate from project gross, receipts, and net earnings",PASS,blocking,Violations=[],Source-defined net values cannot be relabelled into the project accounting chain.
+S3C011,Perception and preference evidence remains contextual or explicitly caveated,PASS,blocking,Violations=[],Perception or preference evidence cannot become a realized economic quantity.
+S3C012,Retrospective historical observations retain recall classification,PASS,blocking,Recall observations=15; violations=[],Recalled historical values cannot be interpreted as independent contemporaneous survey waves.
+S3C013,Semantic harmonization does not convert use-specific comparability into a global observation property,PASS,blocking,Premature observation-level comparability rows=[],Later analytical use must inherit comparison-specific eligibility.
+S3C014,Standardized source files remain byte-identical through Stage 3C,PASS,blocking,Changed sources=[],Semantic harmonization must not modify the standardized evidence layer.
+S3C015,Stage 3C does not create a processed analytical dataset,PASS,blocking,Processed directory exists=False,Processed outputs belong to Stage 3E after transformation eligibility is resolved.
+S3C016,Inherited Stage 3B caveat S3B020 remains binding,CAVEAT,non_blocking,Analyses requiring respondent counts must exclude or caveat these rows rather than assume the full sample denominator.,Analyses requiring respondent counts must exclude or caveat these rows rather than assume the full sample denominator.
+S3C017,Inherited Stage 3B caveat S3B021 remains binding,CAVEAT,non_blocking,No single locality count may be asserted as certain until the source discrepancy is independently resolved.,No single locality count may be asserted as certain until the source discrepancy is independently resolved.
+S3C018,Inherited Stage 3B caveat S3B022 remains binding,CAVEAT,non_blocking,"Later analysis must honor transformation, caveat, contextual restriction, or exclusion rather than indiscriminate pooling.","Later analysis must honor transformation, caveat, contextual restriction, or exclusion rather than indiscriminate pooling."
+S3C019,Inherited Stage 3B caveat S3B023 remains binding,CAVEAT,non_blocking,The evidence must not be represented as a complete observed gross-to-net chain.,The evidence must not be represented as a complete observed gross-to-net chain.

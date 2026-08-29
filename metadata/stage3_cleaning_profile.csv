@@ -1,0 +1,23 @@
+profile_group,profile_key,count,note
+source_id,SRC010,18,Standardized observation count.
+source_id,SRC013,18,Standardized observation count.
+source_id,SRC017,16,Standardized observation count.
+source_id,SRC029,14,Standardized observation count.
+source_id,SRC030,6,Standardized observation count.
+metric_family,activity,20,Source-preserving metric family count.
+metric_family,context,14,Source-preserving metric family count.
+metric_family,deduction,3,Source-preserving metric family count.
+metric_family,earnings,25,Source-preserving metric family count.
+metric_family,incentive,6,Source-preserving metric family count.
+metric_family,operating_cost,4,Source-preserving metric family count.
+mapping_status,mapped_exact,3,Stage 2 source-to-project mapping status.
+mapping_status,mapped_with_caveat,7,Stage 2 source-to-project mapping status.
+mapping_status,mapped_with_source_category,3,Stage 2 source-to-project mapping status.
+mapping_status,mapped_with_temporal_caveat,3,Stage 2 source-to-project mapping status.
+mapping_status,source_defined_unmapped,56,Stage 2 source-to-project mapping status.
+temporal_evidence_status,contemporaneous,41,Temporal evidence classification.
+temporal_evidence_status,reference_period,16,Temporal evidence classification.
+temporal_evidence_status,retrospective_recall,15,Temporal evidence classification.
+value_provenance,source_reported,72,Evidence provenance classification.
+metric_denominator_n,reported_or_resolved,48,Observation-specific denominator is present.
+metric_denominator_n,unresolved_or_not_reported,24,Missing denominator remains missing and is not replaced by sample_size.

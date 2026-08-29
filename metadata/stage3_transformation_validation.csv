@@ -1,0 +1,14 @@
+check_id,check_name,status,severity,evidence,analytical_implication
+S3D001,Every Stage 2 comparison receives one transformation-eligibility assessment,PASS,blocking,Stage 2 comparisons=17; Stage 3D assessments=17,Transformation eligibility must preserve complete comparison-level lineage.
+S3D002,The three Stage 2 inflation-required comparisons are explicitly identified,PASS,blocking,"Inflation-required comparison IDs=['S2C001', 'S2C002', 'S2C005']",Stage 3D must not omit or invent inflation-required comparisons.
+S3D003,Primary inflation adjustment remains deferred where CPI compatibility is unresolved,CAVEAT,non_blocking,Non-deferred inflation comparisons=[],Primary real-value comparison is withheld rather than created from an incompatible or insufficiently matched CPI chain.
+S3D004,No direct CPI ratio across base-year regimes is authorized,PASS,blocking,Direct-ratio authorizations=[],"2012=100, 2018=100, and 2022=100 index levels must not be ratioed without a documented bridge."
+S3D005,Standardized source files remain byte-identical through Stage 3D,PASS,blocking,Changed source IDs=[],Transformation eligibility assessment must not alter source evidence.
+S3D006,Stage 3D does not create a processed analytical dataset,PASS,blocking,Processed directory exists=False,Processed analytical outputs belong to Stage 3E.
+S3D007,Transformation-reference registry documents all relevant CPI base regimes,PASS,blocking,"Registered CPI bases=['2012=100', '2018=100', '2022=100']",Inflation eligibility decisions must document the CPI base transitions they rely on.
+S3D008,Stage 2 CPI references remain available as current-period reference evidence,PASS,blocking,Stage 2 CPI reference count=2,Stage 3D supplements rather than overwrites the Stage 2 reference registry.
+S3D009,No transformed source observation or formula is created in Stage 3D,PASS,blocking,Transformed source rows=[],Eligibility decisions must remain separate from derived-value construction.
+S3D010,Regulatory-policy reconciliation remains non-numeric,PASS,blocking,S2C017 eligibility=not_a_numeric_transformation,Scope and evidence-layer matching must not be replaced by arithmetic fee transformation.
+S3D011,No transformed-comparable comparison remains outside the explicit Stage 3D rules,PASS,blocking,Manual-review comparison IDs=[],All transformed-comparable uses must have an explicit eligibility decision.
+S3D012,Stage 3C semantic gate remains eligible,PASS,blocking,PASS_WITH_CAVEAT,Transformation eligibility may only proceed from a valid semantic-harmonization gate.
+S3D013,Primary real-value comparisons remain unavailable for the three inflation-required uses,CAVEAT,non_blocking,"S2C001, S2C002, and S2C005 remain nominal for primary analysis.",Primary analytical use must not present inflation-adjusted values for these comparisons unless a later defensible transformation is separately introduced and validated.

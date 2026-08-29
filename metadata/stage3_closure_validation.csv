@@ -1,0 +1,7 @@
+check_id,check_name,status,severity,evidence,analytical_implication
+S3CL001,Stage 3 final validation has no blocking failure,PASS,blocking,Blocking failures=[],Stage 3 closure requires all blocking validation failures to be resolved.
+S3CL002,Processed observation count equals standardized observation count,PASS,blocking,Standardized=72; processed=72,The analytical evidence register must preserve the complete Stage 2 evidence base.
+S3CL003,Processed source values remain unchanged,PASS,blocking,Value violations=[],Stage 3 closure requires source-value preservation.
+S3CL004,All 17 comparison-use decisions remain traceable,PASS,blocking,Comparison eligibility rows=17,Later analytical use must inherit every use-specific comparability decision.
+S3CL005,No unsupported transformed primary value is present,PASS,blocking,Transformed rows=[],Deferred inflation transformations must remain absent from primary analysis.
+S3CL006,No project net operating earnings are manufactured,PASS,blocking,Project net rows=[],Later analytical use must not claim an observed complete gross-to-net chain.

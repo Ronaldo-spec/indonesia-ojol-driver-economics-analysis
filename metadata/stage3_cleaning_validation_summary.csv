@@ -1,0 +1,2 @@
+stage,stage_title,status,standardized_source_file_count,standardized_observation_count,validation_check_count,validation_pass_count,validation_caveat_count,validation_fail_count,blocking_failure_count,key_conclusion
+Stage 3B,Cleaning and Integrity Gate,PASS_WITH_CAVEAT,5,72,27,23,4,0,0,"Stage 2 standardized evidence remains structurally intact, with documented denominator, geography, comparability, and incomplete unit-economics caveats preserved for semantic harmonization."

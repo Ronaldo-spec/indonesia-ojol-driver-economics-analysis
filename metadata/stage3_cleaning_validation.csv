@@ -1,0 +1,28 @@
+check_id,check_name,status,severity,evidence,analytical_implication
+S3B001,Expected Stage 2 standardized source files are present,PASS,blocking,Expected=5; found=5,Stage 3 requires the complete validated Stage 2 source-file set.
+S3B002,Stage 2 manifest row counts are preserved,PASS,blocking,Mismatches=[],Stage 3 must not silently add or remove standardized observations.
+S3B003,Validated Stage 2 observation count is preserved,PASS,blocking,Observed=72; expected=72,The Stage 2 evidence baseline must remain stable.
+S3B004,Observation identifiers remain unique,PASS,blocking,Duplicate IDs=[],Duplicate identifiers would break source-to-analysis lineage.
+S3B005,All observations resolve to registered sources,PASS,blocking,Unregistered source IDs=[],Every observation must retain canonical source provenance.
+S3B006,Standardized files retain the locked Stage 2 schema,PASS,blocking,Schema mismatches=[],Semantic harmonization requires the common source-preserving schema.
+S3B007,Required standardized fields remain populated,PASS,blocking,Missing required instances=0,"Stage 3 must not infer missing required identity, semantic, or traceability fields."
+S3B008,Populated numeric fields remain parseable,PASS,blocking,Numeric parse errors=[],Malformed numeric fields would invalidate later analysis.
+S3B009,Percentage observations remain within 0 to 100,PASS,blocking,Invalid percentages=[],Out-of-range percentages indicate corrupted or incorrectly normalized evidence.
+S3B010,Category bounds remain internally ordered,PASS,blocking,Invalid bounds=[],Distribution brackets must retain valid lower and upper ordering.
+S3B011,Reported metric denominators remain valid,PASS,blocking,Invalid denominators=[],Metric-specific denominators cannot be non-positive or exceed the source sample.
+S3B012,Mapped project metrics remain in the locked Stage 0 dictionary,PASS,blocking,Invalid project metrics=[],Stage 3 must not introduce undeclared project metrics.
+S3B013,Stage 2 semantic safeguards remain binding,PASS,blocking,Non-PASS inherited safeguards=[],"Ambiguous income, mixed costs, deduction evidence layers, time bases, distance bases, and retrospective recall must remain source-defined."
+S3B014,Standardized observations remain untransformed,PASS,blocking,Unexpected transformed rows=[],Inflation and other analytical transformations belong to later documented Stage 3 steps.
+S3B015,Source monetary observations remain nominal,PASS,blocking,Nominal-status violations=[],Real-value transformations must create documented derived values rather than overwrite source nominal values.
+S3B016,Comparability remains use-specific rather than globally attached to observations,PASS,blocking,Premature observation-level comparability rows=[],The same observation may have different eligibility across analytical uses.
+S3B017,Persisted use-specific comparability assessment is internally consistent,PASS,blocking,"Observed={'comparable_with_transformation': 3, 'comparable_with_caveat': 4, 'not_comparable': 7, 'context_only': 3}; expected={'directly_comparable': 0, 'comparable_with_transformation': 3, 'comparable_with_caveat': 4, 'context_only': 3, 'not_comparable': 7}; invalid=[]",Stage 3 must inherit the validated comparison-specific eligibility classes.
+S3B018,Stage 2 extraction-validation baseline is reproduced,PASS,blocking,"Checks=32; status_counts={'PASS': 28, 'CAVEAT': 4}",Stage 3 must begin from the validated Stage 2 evidence state.
+S3B019,Stage 2 closure validation remains fully PASS,PASS,blocking,Checks=6; failures=[],Stage 3 is authorized only from a valid Stage 2 closure.
+S3B020,Unresolved metric-specific denominators remain explicit,CAVEAT,non_blocking,Stage 2 unresolved=24; Stage 3B unresolved=24,Analyses requiring respondent counts must exclude or caveat these rows rather than assume the full sample denominator.
+S3B021,SRC013 62-versus-67 locality discrepancy remains explicit,CAVEAT,non_blocking,Both locality counts remain present in SRC013 standardized evidence.,No single locality count may be asserted as certain until the source discrepancy is independently resolved.
+S3B022,No assessed cross-source comparison is directly comparable,CAVEAT,non_blocking,Directly comparable assessments=0,"Later analysis must honor transformation, caveat, contextual restriction, or exclusion rather than indiscriminate pooling."
+S3B023,Incomplete observed unit-economics chain remains explicit,CAVEAT,non_blocking,"Missing standardized project-chain metrics=['driver_receipts_before_operating_cost', 'driver_side_platform_deduction', 'fuel_cost']",The evidence must not be represented as a complete observed gross-to-net chain.
+S3B024,Stage 3B does not manufacture project net operating earnings,PASS,blocking,Project net rows=[],Project net operating earnings require a later defensible reconstruction with explicit assumptions and validated inputs.
+S3B025,Stage 2 standardized source files remain byte-identical during Stage 3B,PASS,blocking,Changed source IDs=[],Stage 3B must not mutate the standardized evidence layer.
+S3B026,Stage 3B does not create a processed analytical dataset,PASS,blocking,Processed directory exists=False,Processed analytical outputs belong to Stage 3E after semantic and transformation eligibility gates.
+S3B027,No blocking Stage 2 validation failure is carried into Stage 3,PASS,blocking,Blocking Stage 2 failures=[],Stage 3 input integrity requires a Stage 2 baseline with no blocking extraction-validation failure.

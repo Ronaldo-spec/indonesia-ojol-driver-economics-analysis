@@ -1,0 +1,3 @@
+output_id,output_path,output_type,row_count,source_stage,role
+S3E-OUT001,data/processed/driver_evidence_processed.csv,processed_observation_register,72,Stage 3E,Source-preserving processed evidence register with semantic eligibility and observation-level analysis role.
+S3E-OUT002,metadata/stage3_analysis_eligibility.csv,comparison_level_analysis_eligibility,17,Stage 3E,Use-specific analytical eligibility retaining Stage 2 comparability and Stage 3D transformation decisions.

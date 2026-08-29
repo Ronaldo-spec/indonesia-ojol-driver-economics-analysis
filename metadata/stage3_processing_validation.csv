@@ -1,0 +1,20 @@
+check_id,check_name,status,severity,evidence,analytical_implication
+S3E001,Processed evidence register preserves all standardized observations,PASS,blocking,Standardized=72; processed=72; expected=72,Stage 3E must retain the complete standardized evidence layer.
+S3E002,Processed observation identifiers remain unique,PASS,blocking,Duplicate processed IDs=[],Processed lineage requires a one-to-one observation identity.
+S3E003,Processed and standardized observation sets are identical,PASS,blocking,Missing in processed=[]; unexpected in processed=[],Stage 3E may not add synthetic observations or drop evidence.
+S3E004,Processed rows preserve standardized source values and units,PASS,blocking,Violations=[],Processed analytical preparation must not alter the underlying source-reported values.
+S3E005,Stage 3E creates no unsupported transformed primary values,PASS,blocking,Transformed rows=[],Deferred Stage 3D inflation transformations must remain deferred.
+S3E006,Processed semantic eligibility reproduces the Stage 3C assessment,PASS,blocking,"Processed={'source_defined_only': 42, 'eligible_as_mapped': 6, 'eligible_with_semantic_caveat': 10, 'context_only': 14}; Stage 3C={'source_defined_only': 42, 'eligible_as_mapped': 6, 'eligible_with_semantic_caveat': 10, 'context_only': 14}",Stage 3E may not silently strengthen or weaken semantic eligibility.
+S3E007,Project-metric evidence retains a harmonized locked metric,PASS,blocking,Violations=[],Only defensibly mapped observations may enter project-metric analysis.
+S3E008,Context-only observations remain contextual in the processed layer,PASS,blocking,Violations=[],Context evidence must not become a numeric unit-economics input.
+S3E009,Source-defined observations remain descriptive source evidence,PASS,blocking,Violations=[],Ambiguous or source-defined metrics must not be converted into locked project metrics.
+S3E010,Unresolved metric-specific denominators remain explicit in processed data,CAVEAT,non_blocking,Stage 3B unresolved=24; Stage 3E unresolved=24,Respondent-count analyses must continue to exclude or caveat observations with unresolved denominators.
+S3E011,Every Stage 2 comparison receives one Stage 3E analytical-eligibility decision,PASS,blocking,Stage 2 comparisons=17; Stage 3E decisions=17,Cross-source analytical use must remain explicitly governed by comparison-level eligibility.
+S3E012,Deferred inflation comparisons remain unavailable for primary transformed analysis,CAVEAT,non_blocking,"Deferred primary comparison IDs=['S2C001', 'S2C002', 'S2C005']",Primary analytical use must not present real-value comparisons for these uses without a separately validated transformation.
+S3E013,Stage 3E invents no directly comparable cross-source use,CAVEAT,non_blocking,Direct comparison IDs=[],"All cross-source analysis must retain transformation, caveat, contextual restriction, or exclusion."
+S3E014,Stage 2 not-comparable uses remain not comparable,PASS,blocking,Violations=[],Stage 3E may not reopen comparisons rejected on semantic or statistical grounds.
+S3E015,Stage 2 context-only comparison uses remain contextual,PASS,blocking,Violations=[],Context-only evidence cannot become a numerical cross-source comparison.
+S3E016,Processed data contains no manufactured project net operating earnings,PASS,blocking,Project net processed rows=[],The evidence still lacks a complete same-observation receipts-and-cost chain.
+S3E017,Standardized source files remain byte-identical through Stage 3E,PASS,blocking,Changed source IDs=[],Processed analytical preparation must not mutate the standardized evidence layer.
+S3E018,Stage 3D transformation gate remains eligible,PASS,blocking,PASS_WITH_CAVEAT,Processed analytical outputs may only be created after a valid transformation-eligibility gate.
+S3E019,Stage 3E output manifest reproduces persisted row counts,PASS,blocking,Mismatches=[],Stage 3F closure requires reproducible processed-output counts.
