@@ -1,7 +1,7 @@
-check_id,check_name,status,severity
-S5CL001,No blocking validation failure,PASS,blocking
-S5CL002,Manifest outputs exist,PASS,blocking
-S5CL003,Authorized comparisons only,PASS,blocking
-S5CL004,Findings evidence-linked,PASS,blocking
-S5CL005,No prohibited new metric,PASS,blocking
-S5CL006,Caveats carried forward,PASS,blocking
+check_id,check_name,status,severity,evidence,analytical_implication
+S5CL001,No blocking validation failure,PASS,blocking,True,Closure gate.
+S5CL002,Manifest reproduces expected outputs,PASS,blocking,True,Closure gate.
+S5CL003,Only authorized comparison uses visualized,PASS,blocking,True,Closure gate.
+S5CL004,Findings evidence-linked,PASS,blocking,True,Closure gate.
+S5CL005,No new prohibited economic metric,PASS,blocking,True,Closure gate.
+S5CL006,Material caveats carried forward,PASS,blocking,True,Closure gate.

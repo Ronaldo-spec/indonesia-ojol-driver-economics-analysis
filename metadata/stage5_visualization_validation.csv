@@ -1,23 +1,23 @@
-check_id,check_name,status,severity
-S5V001,Locked Stage 4 commit,PASS,blocking
-S5V002,Exact upstream blobs,PASS,blocking
-S5V003,Stage 4 closure,PASS,blocking
-S5V004,No upstream blocking fail,PASS,blocking
-S5V005,Stage 4 counts,PASS,blocking
-S5V006,Four figures,PASS,blocking
-S5V007,Figure registry,PASS,blocking
-S5V008,Authorized comparisons only,PASS,blocking
-S5V009,SRC010 raw shares,PASS,blocking
-S5V010,Mixed-cost boundary,PASS,blocking
-S5V011,Deduction semantics,PASS,blocking
-S5V012,Seven-day category,PASS,blocking
-S5V013,Unit rates preserved,PASS,blocking
-S5V014,Finding IDs resolve,PASS,blocking
-S5V015,No CPI transform,PASS,blocking
-S5V016,No new derived metric,PASS,blocking
-S5V017,Eight decisions,PASS,blocking
-S5V018,Unresolved denominators,CAVEAT,non_blocking
-S5V019,SRC013 locality 62/67,CAVEAT,non_blocking
-S5V020,No direct cross-source evidence,CAVEAT,non_blocking
-S5V021,SRC010 recall/current distinction,CAVEAT,non_blocking
-S5V022,Project net unavailable,CAVEAT,non_blocking
+check_id,check_name,status,severity,evidence,analytical_implication
+S5V001,Locked Stage 4 commit verified,PASS,blocking,1c3277f53a77ff71eed513f302375b3abc744cf1,
+S5V002,Exact upstream blobs verified,PASS,blocking,8 exact blobs,
+S5V003,Stage 4 closure valid,PASS,blocking,PASS_WITH_CAVEAT,
+S5V004,No Stage 4 blocking failure,PASS,blocking,,
+S5V005,Stage 4 analytical counts preserved,PASS,blocking,58/25/2/9/22,
+S5V006,Four expected figure files exist,PASS,blocking,4 figures,
+S5V007,Visualization registry complete,PASS,blocking,4 registered figures,
+S5V008,Only authorized comparison IDs visualized,PASS,blocking,,
+S5V009,SRC010 plotted values remain source-reported,PASS,blocking,18 raw shares,
+S5V010,Mixed cost boundary preserved,PASS,blocking,,
+S5V011,Reported deduction semantics preserved,PASS,blocking,,
+S5V012,Seven-day category matched exactly,PASS,blocking,,
+S5V013,Stage 4 unit-economics values preserved,PASS,blocking,S4UE001/S4UE002 ratio_of_source_means,
+S5V014,Finding evidence IDs resolve,PASS,blocking,18 evidence IDs,
+S5V015,No Stage 5 CPI transformation introduced,PASS,blocking,0 transformed findings,
+S5V016,No new derived economic metric introduced,PASS,blocking,Only pre-existing Stage 4 derived rates,
+S5V017,Eight Stage 5 decisions traceable,PASS,blocking,8 decisions,
+S5V018,Unresolved denominators carried forward,CAVEAT,non_blocking,24,Respondent-count caveats remain material.
+S5V019,SRC013 locality discrepancy carried forward,CAVEAT,non_blocking,62/67,Do not assert one locality count.
+S5V020,No directly comparable cross-source evidence,CAVEAT,non_blocking,0 direct,All numeric comparison figures retain comparable_with_caveat.
+S5V021,SRC010 recall/current distinction remains explicit,CAVEAT,non_blocking,retrospective_recall + contemporaneous,Do not interpret recalled periods as independent historical waves.
+S5V022,Project net remains unavailable,CAVEAT,non_blocking,"['driver_receipts_before_operating_cost', 'driver_side_platform_deduction', 'fuel_cost']",Do not reconstruct project net.

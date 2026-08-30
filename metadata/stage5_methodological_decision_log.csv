@@ -1,9 +1,9 @@
-decision_id,decision,rationale
-S5-MD001,Use exact committed Stage 4 inputs.,Preserve lineage.
-S5-MD002,Visualize only S2C003/006/007/008 numerically.,No direct comparability exists.
-S5-MD003,Keep SRC010 recall/current distinction.,Recall is not an independent wave.
-S5-MD004,Keep fuel+food/drink as mixed bundle.,Food is outside project operating cost.
-S5-MD005,Treat 20% deduction as reported prevalence.,Not transaction-level realization.
-S5-MD006,Keep SRC029 per-hour/per-order rates denominator-specific.,Ratios of source means.
-S5-MD007,Bound findings to source/sample evidence.,No national generalization or forced welfare conclusion.
-S5-MD008,Carry incomplete gross-to-net chain as limitation.,Do not reconstruct project net.
+decision_id,decision,rationale,evidence_basis,analytical_implication,intended_report_destination
+S5-MD001,Consume the exact committed Stage 4 state.,Stage 5 must not recreate or reinterpret upstream analytical inputs.,Stage 4 commit and exact blobs.,All Stage 5 values trace to committed Stage 4 outputs.,Methodology — provenance
+S5-MD002,Use only Stage 4-authorized numeric comparison uses in cross-source/period figures.,No directly comparable cross-source use exists.,S2C003/S2C006/S2C007/S2C008.,No new numeric comparison is introduced.,Methodology — comparability
+S5-MD003,Preserve SRC010 recalled versus current-period distinctions.,Retrospective recall is not an independent historical panel or survey wave.,SRC010 Stage 3 temporal evidence metadata.,Figure and finding language avoid panel/trend claims beyond source-defined responses.,Methodology — temporal evidence
+S5-MD004,Label fuel + food/drink values as a source-defined mixed bundle.,Food/personal expenditure is outside the project operating-cost boundary.,S2C006 and Stage 4 decision S4-MD006.,No project operating-cost or project-net subtraction is implied.,Methodology — cost boundary
+S5-MD005,Label 20% deduction values as driver-reported prevalence.,Reported categories are not transaction-level realized deductions.,S2C008 and Stage 4 decision S4-MD005.,No realized deduction or commission claim is made.,Methodology — deductions
+S5-MD006,Keep the two SRC029 unit-economics metrics textual/tabular rather than plotting them on a common comparison scale.,Per-hour and per-order rates have different denominators and a joint magnitude chart would encourage invalid comparison.,S4UE001/S4UE002.,Rates remain ratio-of-source-means summaries with denominator-specific interpretation.,Results — unit economics
+S5-MD007,Bound findings to source/sample evidence and explicit caveats.,Convenience/purposive and geographically different samples do not justify national generalization.,Stage 4 validation and source metadata.,No overall welfare/sustainability conclusion is forced.,Methodology — synthesis
+S5-MD008,Carry the incomplete gross-to-net chain forward as an evidence boundary.,Missing bridge components cannot be silently reconstructed.,S4V021 and S4-MD004.,Project net operating earnings remain unavailable.,Methodology / limitations — reconstruction

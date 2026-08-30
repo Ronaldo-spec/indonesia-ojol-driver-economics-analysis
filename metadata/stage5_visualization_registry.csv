@@ -1,5 +1,5 @@
-figure_id,output_path,title,source_ids,comparison_id,comparability_status
-S5FIG001,visualizations/stage5_src010_income_distribution.svg,SRC010 income distribution,SRC010,S2C003,comparable_with_caveat
-S5FIG002,visualizations/stage5_mixed_fuel_food_share.svg,Mixed fuel + food/drink share,SRC029;SRC013,S2C006,comparable_with_caveat
-S5FIG003,visualizations/stage5_seven_day_workweek_prevalence.svg,Seven-day workweek prevalence,SRC030;SRC029;SRC013,S2C007,comparable_with_caveat
-S5FIG004,visualizations/stage5_reported_twenty_percent_deduction_prevalence.svg,Reported 20% deduction prevalence,SRC029;SRC013,S2C008,comparable_with_caveat
+figure_id,output_path,title,source_ids,evidence_ids,comparison_id,comparability_status,interpretation_boundary
+S5FIG001,visualizations/stage5_src010_income_distribution.svg,SRC010 daily-income distribution across source-defined periods,SRC010,SRC010-O001;SRC010-O002;SRC010-O003;SRC010-O004;SRC010-O005;SRC010-O006;SRC010-O007;SRC010-O008;SRC010-O009;SRC010-O010;SRC010-O011;SRC010-O012;SRC010-O013;SRC010-O014;SRC010-O015;SRC010-O016;SRC010-O017;SRC010-O018,S2C003,comparable_with_caveat,Retrospective recall and current-period responses within one 2022 survey; not independent waves; income layer unspecified.
+S5FIG002,visualizations/stage5_mixed_fuel_food_share.svg,Mixed fuel + food/drink spending share,SRC029;SRC013,SRC029-O006;SRC013-O003,S2C006,comparable_with_caveat,Source-defined mixed work/personal bundle; not project operating cost.
+S5FIG003,visualizations/stage5_seven_day_workweek_prevalence.svg,Seven-day workweek prevalence,SRC030;SRC029;SRC013,SRC030-O005;SRC029-O013;SRC013-O018,S2C007,comparable_with_caveat,Different periods/geographies/samples; not a national time series.
+S5FIG004,visualizations/stage5_reported_twenty_percent_deduction_prevalence.svg,Reported 20% deduction-category prevalence,SRC029;SRC013,SRC029-O010;SRC013-O005,S2C008,comparable_with_caveat,"Driver-reported prevalence, not realized transaction deduction."

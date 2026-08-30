@@ -1,2 +1,2 @@
-stage,stage_title,closure_status,stage4_input_commit,figure_count,finding_count,methodological_decision_count,validation_check_count,validation_pass_count,validation_caveat_count,validation_fail_count,blocking_failure_count
-Stage 5,Visualization & Evidence-Linked Findings,PASS_WITH_CAVEAT,1c3277f53a77ff71eed513f302375b3abc744cf1,4,7,8,22,17,5,0,0
+stage,stage_title,closure_status,stage4_input_commit,figure_count,finding_count,methodological_decision_count,validation_check_count,validation_pass_count,validation_caveat_count,validation_fail_count,blocking_failure_count,key_conclusion
+Stage 5,Visualization & Evidence-Linked Findings,PASS_WITH_CAVEAT,1c3277f53a77ff71eed513f302375b3abc744cf1,4,7,8,22,17,5,0,0,"Four caveated evidence-bounded figures and seven traceable findings; no new project-net, realized-deduction, fuel, per-km, or CPI-transformed metric."

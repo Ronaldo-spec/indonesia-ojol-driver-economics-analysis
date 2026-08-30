@@ -1,9 +1,9 @@
-output_id,output_path,output_type,row_count
-S5-OUT001,data/analytical/stage5_findings.csv,findings,7
-S5-OUT002,metadata/stage5_visualization_registry.csv,registry,4
-S5-OUT003,visualizations/stage5_src010_income_distribution.svg,figure,
-S5-OUT004,visualizations/stage5_mixed_fuel_food_share.svg,figure,
-S5-OUT005,visualizations/stage5_seven_day_workweek_prevalence.svg,figure,
-S5-OUT006,visualizations/stage5_reported_twenty_percent_deduction_prevalence.svg,figure,
-S5-OUT007,metadata/stage5_methodological_decision_log.csv,decisions,8
-S5-OUT008,metadata/stage5_visualization_validation.csv,validation,22
+output_id,output_path,output_type,row_count,role
+S5-OUT001,data/analytical/stage5_findings.csv,evidence_linked_findings,7,Validated evidence-linked findings.
+S5-OUT002,metadata/stage5_visualization_registry.csv,visualization_registry,4,Traceability and interpretation boundaries for figures.
+S5-OUT003,visualizations/stage5_src010_income_distribution.svg,figure,,SRC010 source-reported income distribution.
+S5-OUT004,visualizations/stage5_mixed_fuel_food_share.svg,figure,,Mixed fuel + food/drink share comparison with caveat.
+S5-OUT005,visualizations/stage5_seven_day_workweek_prevalence.svg,figure,,Seven-day workweek prevalence comparison with caveat.
+S5-OUT006,visualizations/stage5_reported_twenty_percent_deduction_prevalence.svg,figure,,Reported 20% deduction-category prevalence with caveat.
+S5-OUT007,metadata/stage5_methodological_decision_log.csv,methodological_decision_log,8,Material visualization and synthesis decisions.
+S5-OUT008,metadata/stage5_visualization_validation.csv,visualization_validation,22,Stage 5 validation.
