@@ -1,0 +1,3 @@
+unit_economics_id,metric_name,source_id,numerator_observation_id,denominator_observation_id,numerator_value,denominator_value,derived_value,unit,value_provenance,derivation_basis,metric_denominator_n,observation_period,geography
+S4UE001,gross_service_earnings_per_source_reported_working_hour,SRC029,SRC029-O001,SRC029-O009,168000.0,11.0,15272.73,IDR/source-reported working hour,derived,ratio_of_source_means,186,2022-2023,Jabodetabek
+S4UE002,gross_service_earnings_per_completed_order,SRC029,SRC029-O001,SRC029-O007,168000.0,10.0,16800.0,IDR/completed order,derived,ratio_of_source_means,186,2022-2023,Jabodetabek

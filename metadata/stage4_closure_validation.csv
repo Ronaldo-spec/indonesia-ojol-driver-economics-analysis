@@ -1,0 +1,7 @@
+check_id,check_name,status,severity,evidence,analytical_implication
+S4CL001,No blocking validation failure,PASS,blocking,True,Closure gate.
+S4CL002,Manifest reproduces outputs,PASS,blocking,True,Closure gate.
+S4CL003,Only authorized numeric comparisons,PASS,blocking,True,Closure gate.
+S4CL004,Only two SRC029 gross rates,PASS,blocking,True,Closure gate.
+S4CL005,No prohibited unit rate,PASS,blocking,True,Closure gate.
+S4CL006,Decisions traceable,PASS,blocking,True,Closure gate.

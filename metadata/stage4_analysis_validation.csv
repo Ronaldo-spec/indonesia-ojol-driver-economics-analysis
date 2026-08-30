@@ -1,0 +1,23 @@
+check_id,check_name,status,severity,evidence,analytical_implication
+S4V001,Stage 3 blobs verified,PASS,blocking,5 exact blobs,
+S4V002,Stage 3 closure valid,PASS,blocking,PASS_WITH_CAVEAT,
+S4V003,Input counts preserved,PASS,blocking,72/17,
+S4V004,Observation IDs unique,PASS,blocking,,
+S4V005,No primary transformed input,PASS,blocking,0 rows,
+S4V006,Descriptive evidence complete,PASS,blocking,58 rows,
+S4V007,Only four caveated comparisons,PASS,blocking,"['S2C003', 'S2C006', 'S2C007', 'S2C008']",
+S4V008,Deferred CPI comparisons absent,PASS,blocking,,
+S4V009,Rejected/context uses absent,PASS,blocking,,
+S4V010,Only two aligned SRC029 gross rates,PASS,blocking,,
+S4V011,Hourly basis remains generic,PASS,blocking,,
+S4V012,No per-km rate,PASS,blocking,,
+S4V013,No project net/receipts/realized deduction/fuel,PASS,blocking,,
+S4V014,No mixed-cost formula input,PASS,blocking,,
+S4V015,No reported-deduction formula input,PASS,blocking,,
+S4V016,No source-net formula input,PASS,blocking,,
+S4V017,Nine decisions traceable,PASS,blocking,,
+S4V018,Unresolved denominators explicit,CAVEAT,non_blocking,24,Caveat respondent counts.
+S4V019,SRC013 locality discrepancy explicit,CAVEAT,non_blocking,62/67,Do not assert one count.
+S4V020,No directly comparable cross-source use,CAVEAT,non_blocking,0 direct,Keep caveats.
+S4V021,Gross-to-net chain incomplete,CAVEAT,non_blocking,"['driver_receipts_before_operating_cost', 'driver_side_platform_deduction', 'fuel_cost']",Do not claim project net.
+S4V022,Rates are ratios of means,CAVEAT,non_blocking,2 rates,Not mean driver ratios.

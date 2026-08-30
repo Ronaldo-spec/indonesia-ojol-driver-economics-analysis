@@ -1,0 +1,10 @@
+decision_id,decision,rationale,evidence_basis,analytical_implication,intended_report_destination
+S4-MD001,Use exact committed Stage 3 evidence.,Consume validated upstream.,Stage 3 commit/blobs.,Preserve lineage.,Methodology — provenance
+S4-MD002,Keep description source-specific.,No direct cross-source comparability.,Stage 3 eligibility.,No pooled estimate.,Methodology — comparability
+S4-MD003,Preserve nominal values.,Primary CPI transforms deferred.,S2C001/002/005.,No primary real-value comparison.,Methodology — monetary
+S4-MD004,Do not reconstruct project net.,Gross-to-net chain incomplete.,Stage 3 validation/S2C016.,Describe components only.,Methodology — reconstruction
+S4-MD005,Treat reported deductions as prevalence.,Not matched transactions.,S2C008/017.,No realized rate.,Methodology — deductions
+S4-MD006,Exclude mixed fuel-food bundles from project cost.,Includes personal spending.,S2C005/006.,No project-net subtraction.,Methodology — cost boundary
+S4-MD007,Derive two SRC029 gross unit rates.,Aligned source means; n=186.,SRC029-O001/O007/O009.,Ratio-of-means only.,Results — unit economics
+S4-MD008,Do not derive per-km earnings.,Distance basis unresolved.,S2C012.,Distance remains descriptive.,Methodology — distance
+S4-MD009,Keep context evidence outside unit formulas.,Not realized economic quantities.,Stage 3 roles.,Interpretive context only.,Methodology — evidence roles

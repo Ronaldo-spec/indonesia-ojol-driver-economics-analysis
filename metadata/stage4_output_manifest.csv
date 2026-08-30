@@ -1,0 +1,6 @@
+output_id,output_path,output_type,row_count,role
+S4-OUT001,data/analytical/stage4_descriptive_results.csv,source_specific_descriptive_results,58,Source-specific descriptive evidence.
+S4-OUT002,data/analytical/stage4_comparison_results.csv,caveated_comparison_source_values,25,Four caveated comparison uses.
+S4-OUT003,data/analytical/stage4_unit_economics_results.csv,derived_unit_economics_results,2,Two aligned SRC029 gross rates.
+S4-OUT004,metadata/stage4_methodological_decision_log.csv,methodological_decision_log,9,Material decisions.
+S4-OUT005,metadata/stage4_analysis_validation.csv,analysis_validation,22,Stage 4 validation.
