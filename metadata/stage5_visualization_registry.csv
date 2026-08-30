@@ -1,0 +1,5 @@
+figure_id,output_path,title,source_ids,comparison_id,comparability_status
+S5FIG001,visualizations/stage5_src010_income_distribution.svg,SRC010 income distribution,SRC010,S2C003,comparable_with_caveat
+S5FIG002,visualizations/stage5_mixed_fuel_food_share.svg,Mixed fuel + food/drink share,SRC029;SRC013,S2C006,comparable_with_caveat
+S5FIG003,visualizations/stage5_seven_day_workweek_prevalence.svg,Seven-day workweek prevalence,SRC030;SRC029;SRC013,S2C007,comparable_with_caveat
+S5FIG004,visualizations/stage5_reported_twenty_percent_deduction_prevalence.svg,Reported 20% deduction prevalence,SRC029;SRC013,S2C008,comparable_with_caveat

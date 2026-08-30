@@ -1,0 +1,9 @@
+output_id,output_path,output_type,row_count
+S5-OUT001,data/analytical/stage5_findings.csv,findings,7
+S5-OUT002,metadata/stage5_visualization_registry.csv,registry,4
+S5-OUT003,visualizations/stage5_src010_income_distribution.svg,figure,
+S5-OUT004,visualizations/stage5_mixed_fuel_food_share.svg,figure,
+S5-OUT005,visualizations/stage5_seven_day_workweek_prevalence.svg,figure,
+S5-OUT006,visualizations/stage5_reported_twenty_percent_deduction_prevalence.svg,figure,
+S5-OUT007,metadata/stage5_methodological_decision_log.csv,decisions,8
+S5-OUT008,metadata/stage5_visualization_validation.csv,validation,22

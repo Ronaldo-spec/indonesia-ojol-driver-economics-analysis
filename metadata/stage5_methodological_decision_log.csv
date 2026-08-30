@@ -1,0 +1,9 @@
+decision_id,decision,rationale
+S5-MD001,Use exact committed Stage 4 inputs.,Preserve lineage.
+S5-MD002,Visualize only S2C003/006/007/008 numerically.,No direct comparability exists.
+S5-MD003,Keep SRC010 recall/current distinction.,Recall is not an independent wave.
+S5-MD004,Keep fuel+food/drink as mixed bundle.,Food is outside project operating cost.
+S5-MD005,Treat 20% deduction as reported prevalence.,Not transaction-level realization.
+S5-MD006,Keep SRC029 per-hour/per-order rates denominator-specific.,Ratios of source means.
+S5-MD007,Bound findings to source/sample evidence.,No national generalization or forced welfare conclusion.
+S5-MD008,Carry incomplete gross-to-net chain as limitation.,Do not reconstruct project net.

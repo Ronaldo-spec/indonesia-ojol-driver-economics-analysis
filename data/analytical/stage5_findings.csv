@@ -1,0 +1,8 @@
+finding_id,finding_statement,evidence_ids,comparison_id,caveat
+S5FND001,"SRC010 <Rp100k share: 11.6% pre-pandemic recalled, 66.0% pandemic recalled, 40.4% in 2022 current-period; Rp100k–250k: 54.4%, 26.2%, 52.5%.",SRC010-O001;SRC010-O002;SRC010-O007;SRC010-O008;SRC010-O013;SRC010-O014,S2C003,Recall periods are not independent waves; income layer unspecified.
+S5FND002,Mixed fuel + food/drink share: SRC029 31.0%; SRC013 46.0%.,SRC029-O006;SRC013-O003,S2C006,Not project operating cost; source contexts differ.
+S5FND003,Seven workdays/week: SRC030 49.3%; SRC029 42.2%; SRC013 55.5%.,SRC030-O005;SRC029-O013;SRC013-O018,S2C007,Different periods/geographies/samples; not a national trend.
+S5FND004,Reported 20% deduction category: SRC029 52.9%; SRC013 50.3%.,SRC029-O010;SRC013-O005,S2C008,"Reported prevalence, not realized deduction or commission."
+S5FND005,"SRC029 gross rates: Rp15,272.73/source-reported working hour and Rp16,800/completed order.",S4UE001;S4UE002,,Ratios of source means; working-hour basis unspecified; gross not net.
+S5FND006,"Project net operating earnings remain unavailable; driver receipts before operating cost, driver-side platform deduction, and fuel cost are missing from a complete same-observation chain.",S4V021,,No imputation or source-net substitution.
+S5FND007,"SRC013: 51.0% report 9–12 working hours/day, 55.5% seven workdays/week, 52.8% 6–10 orders/day.",SRC013-O017;SRC013-O018;SRC013-O011,,Separate source-specific prevalence measures; 62/67 locality discrepancy remains.

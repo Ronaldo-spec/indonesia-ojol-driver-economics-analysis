@@ -1,0 +1,23 @@
+check_id,check_name,status,severity
+S5V001,Locked Stage 4 commit,PASS,blocking
+S5V002,Exact upstream blobs,PASS,blocking
+S5V003,Stage 4 closure,PASS,blocking
+S5V004,No upstream blocking fail,PASS,blocking
+S5V005,Stage 4 counts,PASS,blocking
+S5V006,Four figures,PASS,blocking
+S5V007,Figure registry,PASS,blocking
+S5V008,Authorized comparisons only,PASS,blocking
+S5V009,SRC010 raw shares,PASS,blocking
+S5V010,Mixed-cost boundary,PASS,blocking
+S5V011,Deduction semantics,PASS,blocking
+S5V012,Seven-day category,PASS,blocking
+S5V013,Unit rates preserved,PASS,blocking
+S5V014,Finding IDs resolve,PASS,blocking
+S5V015,No CPI transform,PASS,blocking
+S5V016,No new derived metric,PASS,blocking
+S5V017,Eight decisions,PASS,blocking
+S5V018,Unresolved denominators,CAVEAT,non_blocking
+S5V019,SRC013 locality 62/67,CAVEAT,non_blocking
+S5V020,No direct cross-source evidence,CAVEAT,non_blocking
+S5V021,SRC010 recall/current distinction,CAVEAT,non_blocking
+S5V022,Project net unavailable,CAVEAT,non_blocking
