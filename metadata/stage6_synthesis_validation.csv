@@ -1,0 +1,29 @@
+check_id,check_name,status,severity,evidence,analytical_implication
+S6V001,Validated analytical finding set is complete,PASS,blocking,findings=7,
+S6V002,Required analytical and reference inputs are present,PASS,blocking,verified_inputs=16,
+S6V003,Prior analytical closure valid,PASS,blocking,PASS_WITH_CAVEAT,
+S6V004,No blocking failure in prior analytical validation,PASS,blocking,,
+S6V005,Expected analytical counts are preserved,PASS,blocking,7 findings / 4 figures / 8 decisions / 22 checks,
+S6V006,All seven research questions have explicit synthesis outcomes,PASS,blocking,7 rows,
+S6V007,Research-question synthesis statuses are bounded,PASS,blocking,"['not_assessable', 'not_computable', 'partially_supported']",
+S6V008,Research-question evidence IDs resolve,PASS,blocking,[],
+S6V009,Research-question gap IDs resolve,PASS,blocking,[],
+S6V010,Research-question source IDs resolve,PASS,blocking,[],
+S6V011,Validated gross unit-economics values are preserved,PASS,blocking,S4UE001=15272.73; S4UE002=16800.00; ratio_of_source_means,
+S6V012,No project-net answer is manufactured,PASS,blocking,RQ4=not_computable,
+S6V013,No per-kilometer earnings metric introduced,PASS,blocking,,
+S6V014,Deferred CPI comparisons remain deferred,PASS,blocking,S2C001/S2C002/S2C005,
+S6V015,Regulatory reconciliation statuses are valid,PASS,blocking,"['not_assessable', 'outside_reference_scope']",
+S6V016,Regulatory reconciliation source IDs resolve,PASS,blocking,[],
+S6V017,No matched realized-evidence consistency claim is made,PASS,blocking,All rows end as not_assessable or outside_reference_scope.,
+S6V018,2026 stated 8% policy is not treated as a measured trend against earlier driver reports,PASS,blocking,outside_reference_scope,
+S6V019,Evidence-gap register is complete for the synthesis design,PASS,blocking,11 gaps,
+S6V020,Eight methodological decisions are traceable,PASS,blocking,8 decisions,
+S6V021,No new numerical economic result table is created,PASS,blocking,"Outputs are synthesis, reconciliation, evidence-gap, and validation records.",
+S6V022,Unresolved denominators carried forward,CAVEAT,non_blocking,24,Affected respondent-count interpretations remain caveated.
+S6V023,SRC013 locality discrepancy carried forward,CAVEAT,non_blocking,62/67 kabupaten/kota,Do not assert one locality count as certain.
+S6V024,No directly comparable cross-source evidence,CAVEAT,non_blocking,0 directly_comparable uses,Cross-source numerical figures remain comparable_with_caveat.
+S6V025,SRC010 recall/current-period distinction remains material,CAVEAT,non_blocking,retrospective_recall + contemporaneous,Do not interpret recalled periods as independent historical waves.
+S6V026,Project net operating earnings remain unavailable,CAVEAT,non_blocking,driver_receipts_before_operating_cost; driver_side_platform_deduction; fuel_cost,No project-net reconstruction or source-net substitution.
+S6V027,SRC029 hourly rate retains source-reported working-hour basis,CAVEAT,non_blocking,source_reported_unspecified,Do not relabel as online or productive hours.
+S6V028,Universal 2026 regulatory benchmark remains unresolved in the available evidence,CAVEAT,non_blocking,SRC004/SRC005/SRC006/SRC007/SRC026,"Keep legal text, implementation statements, platform policy, and realized driver evidence separate."

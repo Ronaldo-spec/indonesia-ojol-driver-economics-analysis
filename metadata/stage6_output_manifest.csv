@@ -1,0 +1,6 @@
+output_id,output_path,output_type,row_count,role
+S6-OUT001,data/analytical/stage6_research_question_synthesis.csv,research_question_synthesis,7,Evidence-bounded synthesis of the seven research questions.
+S6-OUT002,metadata/stage6_regulatory_reconciliation.csv,regulatory_reconciliation,7,"Layered rule, implementation, platform-policy, and driver-evidence reconciliation."
+S6-OUT003,metadata/stage6_evidence_gap_register.csv,evidence_gap_register,11,Material evidence gaps that constrain final analytical claims.
+S6-OUT004,metadata/stage6_methodological_decision_log.csv,methodological_decision_log,8,Material synthesis and closure decisions.
+S6-OUT005,metadata/stage6_synthesis_validation.csv,synthesis_validation,28,"Analytical, traceability, and boundary validation."

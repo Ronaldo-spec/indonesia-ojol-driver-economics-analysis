@@ -1,0 +1,8 @@
+check_id,check_name,status,severity,evidence,analytical_implication
+S6CL001,No blocking synthesis-validation failure,PASS,blocking,blocking_failures=0,Final analytical closure requires zero blocking failures.
+S6CL002,Manifest outputs exist with expected row counts,PASS,blocking,all manifest outputs verified,Closure requires reproducible synthesis outputs.
+S6CL003,All seven research questions have explicit closure outcomes,PASS,blocking,research_questions=7,No research question is silently omitted.
+S6CL004,Regulatory reconciliation preserves evidence layers and scope,PASS,blocking,"['not_assessable', 'outside_reference_scope']",No legal-compliance or realized-rate conclusion is manufactured.
+S6CL005,Project net operating earnings remain not computable,PASS,blocking,RQ4=not_computable,No source-defined net substitution or missing-component imputation.
+S6CL006,Material evidence gaps are explicitly preserved,PASS,blocking,evidence_gaps=11,Analytical limitations remain traceable into final reporting.
+S6CL007,No prohibited new economic metric is introduced,PASS,blocking,S6V021=PASS,The analysis remains synthesis and closure rather than unsupported numerical expansion.
