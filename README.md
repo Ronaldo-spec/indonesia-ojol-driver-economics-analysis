@@ -2,20 +2,27 @@
 
 Evidence on earnings, deductions, costs, and work intensity among app-based motorcycle drivers in Indonesia.
 
-This repository examines a deceptively simple question: **after earnings, deductions, and operating costs, what can we defensibly say is left for an ojol driver?**
+## Final Answer
 
-The answer is not one national net-income number. The available evidence supports several source-specific findings and two transparent gross unit-economics rates, but it does not contain a complete, comparable, same-observation chain from gross earnings to project net operating earnings.
+**The available evidence does not support one defensible daily net take-home figure for an ojol driver.**
+
+For the aligned IDEAS 2023 Jabodetabek observations (n=186), the mean gross daily earnings used in the project derivation are **Rp168,000**. This corresponds to **Rp15,272.73 gross per source-reported working hour** and **Rp16,800 gross per completed order**.
+
+Those figures are **gross, not net**. A driver may still face realized platform deductions and day-to-day or periodic outlays such as fuel, oil changes, motorcycle servicing, tires and spare parts, mobile/data costs, and parking or tolls where relevant. Food while working also reduces daily cash on hand, although the project treats personal food consumption separately from operating cost. Accident, illness, vehicle breakdown, and downtime add further economic risk.
+
+The project does **not** subtract assumed values for those items. The matched evidence required to connect gross earnings, realized deductions, fuel, and other work-related costs on the same observation basis is unavailable. Therefore, the amount actually left after a day on the road is **not measured yet**—not zero, not Rp168,000, and not a value assembled from unrelated sources.
 
 ---
 
 ## Key Findings
 
 - In a 2022 Polling Institute survey of 810 drivers, the share reporting less than Rp100,000 per day was 11.6% for the recalled pre-pandemic period, 66.0% for the recalled pandemic period, and 40.4% for the contemporaneous 2022 period. These are source-defined periods within one survey, not independent historical waves.
-- Source-defined fuel plus food/drink spending represented 31.0% of gross daily earnings in an IDEAS 2023 metropolitan source and 46.0% in an IDEAS December 2025 source. The bundle includes personal food/drink expenditure, so it is **not** treated as project operating cost.
 - The share reporting seven workdays per week was 49.3% in an IDEAS 2020 metropolitan source, 42.2% in the IDEAS 2023 metropolitan source, and 55.5% in the IDEAS December 2025 source. These figures are not a national time series.
 - A reported 20% application-deduction category was selected by 52.9% of respondents in the IDEAS 2023 source and 50.3% in the IDEAS December 2025 source. These are driver-reported prevalence measures, not realized transaction-level deduction rates.
+- Source-defined fuel plus food/drink spending represented 31.0% of gross daily earnings in the IDEAS 2023 metropolitan source and 46.0% in the IDEAS December 2025 source. The bundle includes personal food/drink expenditure, so it is **not** treated as a pure project operating-cost share.
+- Drivers may also face periodic motorcycle expenses that are economically relevant but not jointly observed in the validated gross-to-net chain: oil changes, servicing, tires/spare parts, mobile/data costs, and parking or tolls where relevant. Work disruption from accidents, illness, vehicle breakdown, or downtime is also economically relevant but is not monetized without observed data.
 - For aligned IDEAS 2023 source means from 186 observations in Jabodetabek, gross service earnings equal **Rp15,272.73 per source-reported working hour** and **Rp16,800 per completed order**. Both are ratios of source means and are gross, not net.
-- Project net operating earnings remain **not computable** because the validated evidence does not provide a complete same-observation chain containing driver receipts before operating costs, driver-side platform deductions, and separate defensible fuel cost.
+- **Project net operating earnings are not computable** because the validated evidence does not provide a complete same-observation chain containing driver receipts before operating costs, realized driver-side platform deductions, separate defensible fuel cost, and the other relevant work-cost components.
 
 ---
 
@@ -31,7 +38,7 @@ Pre-pandemic and pandemic values are retrospective recall within the 2022 Pollin
 
 ![Mixed fuel plus food/drink spending share](visualizations/stage5_mixed_fuel_food_share.svg)
 
-The measure combines work-related fuel with personal food/drink spending and therefore cannot be used as a project operating-cost share.
+The measure combines work-related fuel with personal food/drink spending and therefore cannot be used as a pure project operating-cost share.
 
 ### Seven-day workweek prevalence
 
@@ -47,31 +54,19 @@ These figures describe respondent-reported deduction categories rather than matc
 
 ---
 
-## Research Questions
+## Research Questions — Direct Outcomes
 
-The project evaluates seven questions:
-
-1. What are driver gross earnings, deductions, operating costs, and estimated net earnings?
-2. Which costs most reduce earnings?
-3. How do outcomes vary by workload, service, vehicle, platform, geography, and period?
-4. What net earnings per hour, order, and kilometer are defensible?
-5. What activity is required to reach specified net-income targets?
-6. How sensitive are results to tariffs, fuel prices, incentives, deductions, utilization, maintenance, and working hours?
-7. What can and cannot be concluded about economic sustainability?
-
-The final synthesis produces the following evidence-bounded outcomes:
-
-| Question | Outcome |
+| Question | Direct answer |
 |---|---|
-| Gross earnings, deductions, costs, and net earnings | `partially_supported` |
-| Ranking of operating-cost components | `not_assessable` |
-| Variation across workload/service/vehicle/platform/geography/period | `partially_supported` |
-| Net earnings per hour/order/km | `not_computable` |
-| Activity required for net-income targets | `not_computable` |
-| Multi-input sensitivity analysis | `not_computable` |
-| Overall economic sustainability | `not_assessable` |
+| Gross earnings, deductions, costs, and net earnings | Gross earnings and several components can be described; **project net earnings are not computable**. |
+| Which costs reduce earnings the most? | **Cannot be determined** from the available evidence. |
+| Variation across workload/service/vehicle/platform/geography/period | **Source-bounded variation can be shown**, but not a pooled national trend or a platform/service/vehicle effect. |
+| Net earnings per hour/order/km | **Not computable.** Only two valid gross SRC029 rates are available. |
+| Activity required for net-income targets | **Not computable.** |
+| Multi-input sensitivity analysis | **Not computable.** |
+| Overall economic sustainability | **Cannot be determined overall from the current evidence.** |
 
-See the [full research-question synthesis](data/analytical/stage6_research_question_synthesis.csv) for the evidence basis and remaining gaps behind each outcome.
+See the [full research-question synthesis](data/analytical/stage6_research_question_synthesis.csv) for the evidence basis and remaining gaps behind each answer.
 
 ---
 
@@ -82,7 +77,7 @@ The project does not treat these concepts as interchangeable:
 ```text
 customer-facing charges
 → driver gross service earnings
-− driver-side platform deductions
+− realized driver-side platform deductions
 + incentives/bonuses
 + tips
 = driver receipts before operating costs
@@ -111,9 +106,9 @@ There are no `directly_comparable` cross-source numerical uses in the final evid
 
 ## Regulatory Context
 
-Legal rules, official implementation statements, platform-stated policies, driver-reported deductions, and realized transaction deductions are preserved as separate evidence layers.
+Legal rules, official implementation statements, platform-stated policies, driver-reported deductions, and realized transaction deductions are separate evidence layers.
 
-The project therefore does **not** interpret the 2023/2025 reported 20% deduction-category prevalence against a stated or planned 8% policy in 2026 as a measured commission reduction. The observations differ in period, service, platform, calculation base, and evidence layer.
+The project therefore does **not** treat the 2023/2025 reported 20% deduction-category prevalence and a stated or planned 8% policy in 2026 as a measured commission decline. They differ in period, service, platform, calculation base, and evidence layer.
 
 The [regulatory reconciliation record](metadata/stage6_regulatory_reconciliation.csv) documents why the available comparisons resolve only as `not_assessable` or `outside_reference_scope`, rather than as legal-compliance or realized-rate conclusions.
 
@@ -178,8 +173,12 @@ The analytical notebooks and validation records provide a reproducible path from
 
 ---
 
-## Scope of the Conclusion
+## Final Verdict
 
-This project does not produce a single national estimate of ojol driver net operating earnings. It also does not produce a realized national platform deduction rate, a defensible ranking of operating-cost components, a per-kilometer net rate, a target-income activity model, or an overall economic-sustainability verdict.
+**There is no defensible single daily net-income figure in the current evidence base.**
 
-The strongest conclusion is narrower and more useful: the available evidence can measure several important parts of driver economics, but the complete gross-to-net accounting chain remains unavailable on a comparable same-observation basis.
+The strongest measured SRC029 figures are **Rp168,000 gross per day**, **Rp15,272.73 gross per source-reported working hour**, and **Rp16,800 gross per completed order**. They sit before a complete matched accounting of deductions and costs.
+
+Drivers still face economic burdens after gross earnings: fuel; oil changes; servicing; tires/spare parts; mobile/data expenses; parking or tolls where relevant; food while working as a personal cash outflow; and work-disruption risks such as accidents, illness, vehicle breakdown, and downtime. The project does not guess the value of those missing components.
+
+Therefore, the answer to “what is left after a day on the road?” is: **not measured yet with sufficient evidence**. That is a firm measurement conclusion, not a zero-income assumption and not an invitation to combine incompatible sources.
