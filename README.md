@@ -10,7 +10,7 @@ IDEAS reports mean gross daily earnings of **Rp168,000** in its 2023 Jabodetabek
 
 The daily fuel + food/drink bundle rises from about **Rp53,000 per day (31% of gross earnings)** in the 2023 source to **Rp58,000 per day (46%)** in the 2025 source. That means gross daily earnings are about **25% lower** across the two source snapshots, the mixed daily spending bundle is about **9.4% higher**, its share of gross earnings is **15 percentage points higher**, and the source-defined monthly net estimate is about **41% lower**.
 
-Those figures still do not capture every economic burden. The source itself notes that mobile/data costs and motorcycle maintenance further reduce income. In practice, maintenance includes periodic servicing, oil changes, tires and spare parts; drivers may also face parking or tolls where relevant. Food while working is a personal cash outflow, and accident, illness, vehicle breakdown, and downtime create additional cost or lost-income risk.
+Those figures still do not capture every economic burden. The source itself notes that mobile/data costs and motorcycle maintenance further reduce income. In practice, maintenance includes periodic servicing, oil changes, tires, brake pads, batteries, chains or V-belts, and other spare parts; drivers may also face vehicle tax and parking or tolls where relevant. Beyond routine costs, there are unexpected costs that are **not assigned assumed nominal values** in this project, such as flat tires, sudden breakdowns, towing or transport needs, and damaged work equipment. Drivers also face accident and illness risk, vehicle downtime, fraudulent orders or payments, robbery or violent theft, ordinary theft, and other crime-related risks. These risks can create direct financial loss, additional expense, or lost productive time.
 
 ## Income Adequacy
 
@@ -28,7 +28,7 @@ Purchasing-power context reinforces the pressure. Bank Indonesia reports CPI inf
 - **Application deductions are a material reported pressure.** A 20% deduction category is reported by 52.9% of respondents in IDEAS 2023 and 50.3% in IDEAS 2025; 24.2% of 2025 respondents report 25–30%. These are respondent-reported categories, not audited transaction-level realized rates.
 - **Work intensity is high.** IDEAS 2023 source means are about 11 working hours, 10 completed orders, and 42 km per day. In the 2025 source, 51.0% report 9–12 working hours/day and 55.5% report seven workdays/week.
 - **Income adequacy is weak where a local wage benchmark is available.** In Bekasi 2023, the source-defined post-cost estimate is about 53% of UMK despite average working time of 11.5 hours/day.
-- **Additional costs and work risks further compress the amount left for drivers.** Mobile/data, servicing, oil changes, tires/spare parts, and work disruption from accidents, illness, breakdown, or downtime are economically relevant even when not all are observed on one matched basis.
+- **Additional routine, unexpected, and work-related risks further compress the amount left for drivers.** Mobile/data, servicing, oil changes, tires, brake pads, batteries, spare parts, and vehicle tax are economically relevant. Unexpected costs such as flat tires, sudden breakdowns, towing/transport needs, or damaged work equipment are described without invented nominal assumptions. Accident, illness, fraudulent orders/payments, robbery or violent theft, ordinary theft, vehicle breakdown, and downtime can also create losses or reduce productive time.
 
 ## Gross Unit Economics
 
@@ -49,7 +49,7 @@ These are gross productivity measures, not take-home pay.
 | What do the 2023 and 2025 source snapshots indicate? | **Economic pressure worsens directionally:** lower gross earnings, higher mixed daily spending, a larger cost share, and lower source-defined net income. |
 | How important are application deductions? | **Material in respondent reports:** about half report a 20% category in both IDEAS sources, with 24.2% reporting 25–30% in 2025. |
 | How heavy is the workload? | **High:** long working days, frequent seven-day workweeks, meaningful order counts, and substantial daily distance. |
-| Overall conclusion? | **Driver economics are under pressure, and the income left after costs is often weak relative to workload and the formal wage benchmark available in the evidence.** |
+| Overall conclusion? | **Driver economics are under pressure, and the income left after costs is often weak relative to workload and the routine, unexpected, and safety risks drivers carry.** |
 
 ## Interpretation Boundaries
 
@@ -59,7 +59,8 @@ The conclusion above does not mean every ojol driver in Indonesia earns the same
 - respondent-reported deduction categories are not treated as audited transaction-level realized commission rates;
 - the 2023 and 2025 IDEAS surveys are snapshots from different samples, not an individual panel or a precise national trend;
 - UMK is used only as a formal local wage benchmark, not as a universal living-wage estimate;
-- missing cost items are not silently imputed or assigned zero.
+- missing cost items are not silently imputed or assigned zero;
+- unexpected mechanical, health, and crime-related risks without observed monetary values are described narratively and are **not assigned assumed nominal costs**.
 
 These boundaries limit the precision and generalizability of the conclusion, but they do not erase the substantive pattern visible in the evidence.
 
@@ -128,4 +129,6 @@ Analytical values remain classified as `observed`, `source_reported`, `derived`,
 
 Gross earnings are limited, daily cost burdens absorb a large and rising share of gross income, reported deductions are material, and long working hours are common. Where a local wage benchmark is available, post-cost income is far below the formal minimum-wage benchmark despite longer-than-standard working time. Positive inflation further weakens purchasing-power conditions around the later snapshot.
 
-The exact national daily take-home amount cannot be reduced to one universal number from the current evidence, but the direction of the economic conclusion is clear: **the income left to drivers is under pressure and is often weak relative to the costs, time, and work risks they carry.**
+The pressure also extends beyond routinely measured expenses. Drivers personally carry vehicle-maintenance costs and may encounter unexpected mechanical costs for which this project does not invent nominal values. They also face accident and illness risk, fraudulent orders or payments, robbery or violent theft, ordinary theft, other crime-related losses, vehicle breakdown, and downtime. These risks can reduce the amount left directly or through lost productive time.
+
+The exact national daily take-home amount cannot be reduced to one universal number from the current evidence, but the direction of the economic conclusion is clear: **the income left to drivers is under pressure and is often weak relative to the costs, time, and risks they carry.**
