@@ -4,9 +4,9 @@ Evidence on earnings, deductions, costs, work intensity, purchasing-power pressu
 
 ## Bottom Line
 
-**The evidence points to real economic pressure on ojol drivers: limited earnings, large cost burdens, long working hours, and weak income adequacy in the contexts that can be benchmarked.**
+**The evidence shows substantial economic pressure on ojol drivers: limited earnings, large cost burdens, long working hours, and weak income adequacy in the analyzed survey contexts.**
 
-IDEAS reports mean gross daily earnings of **Rp168,000** in its 2023 Jabodetabek survey and **Rp126,000** in its 2025 multi-region survey. Using the source’s own cost boundary, monthly net income is reported at about **Rp2.9 million in 2023** and **Rp1.7 million in 2025**. These surveys are not a panel and should not be read as a precise national time series, but the source-level comparison points in one consistent direction: lower nominal earnings, higher daily spending, and a narrower amount left after costs.
+IDEAS reports mean gross daily earnings of **Rp168,000** in its 2023 Jabodetabek survey and **Rp126,000** in its 2025 multi-region survey. Using the source’s own cost boundary, monthly net income is reported at about **Rp2.9 million in 2023** and **Rp1.7 million in 2025**. The source-level comparison is clear: nominal earnings are lower, daily spending is higher, and the amount left after source-included costs is substantially narrower in the 2025 snapshot.
 
 The daily fuel + food/drink bundle rises from about **Rp53,000 per day (31% of gross earnings)** in the 2023 source to **Rp58,000 per day (46%)** in the 2025 source. That means gross daily earnings are about **25% lower** across the two source snapshots, the mixed daily spending bundle is about **9.4% higher**, its share of gross earnings is **15 percentage points higher**, and the source-defined monthly net estimate is about **41% lower**.
 
@@ -22,7 +22,7 @@ Purchasing-power context reinforces the pressure. Bank Indonesia reports CPI inf
 
 ## Key Findings
 
-- **Gross earnings are limited and appear lower in the later source snapshot.** IDEAS reports Rp168,000/day in 2023 versus Rp126,000/day in 2025.
+- **Gross earnings are lower in the 2025 source snapshot.** IDEAS reports Rp168,000/day in 2023 versus Rp126,000/day in 2025.
 - **The cost burden is large and takes a larger share of gross earnings.** Fuel + food/drink equals about 31% of gross in the 2023 source and 46% in the 2025 source.
 - **Source-defined net income is substantially lower in the 2025 snapshot.** About Rp2.9 million/month in 2023 versus Rp1.7 million/month in 2025 under the source definition.
 - **Application deductions are a material reported pressure.** A 20% deduction category is reported by 52.9% of respondents in IDEAS 2023 and 50.3% in IDEAS 2025; 24.2% of 2025 respondents report 25–30%. These are respondent-reported categories, not audited transaction-level realized rates.
@@ -46,10 +46,10 @@ These are gross productivity measures, not take-home pay.
 | What earnings are visible in the main sources? | IDEAS reports Rp168k gross/day and about Rp2.9m source-defined net/month in 2023; Rp126k gross/day and about Rp1.7m source-defined net/month in 2025. |
 | How large is the daily cost pressure? | Fuel + food/drink equals about Rp53k/day (31% of gross) in 2023 and Rp58k/day (46%) in 2025; mobile/data and maintenance reduce income further. |
 | Does the income appear adequate? | **Weak in the available benchmark context.** Bekasi 2023 source-defined net is about 53% of UMK with 11.5 hours of work per day. |
-| What do the 2023 and 2025 source snapshots indicate? | **Economic pressure worsens directionally:** lower gross earnings, higher mixed daily spending, a larger cost share, and lower source-defined net income. |
+| What do the 2023 and 2025 source snapshots indicate? | **The 2025 snapshot shows greater economic pressure than the 2023 snapshot:** lower gross earnings, higher mixed daily spending, a larger cost share, and lower source-defined net income. |
 | How important are application deductions? | **Material in respondent reports:** about half report a 20% category in both IDEAS sources, with 24.2% reporting 25–30% in 2025. |
 | How heavy is the workload? | **High:** long working days, frequent seven-day workweeks, meaningful order counts, and substantial daily distance. |
-| Overall conclusion? | **Driver economics are under pressure, and the income left after costs is often weak relative to workload and the routine, unexpected, and safety risks drivers carry.** |
+| Overall conclusion? | **Ojol work shows weak income adequacy and a materially compressed economic margin relative to the costs, workload, and risks carried by drivers.** |
 
 ## Interpretation Boundaries
 
@@ -62,7 +62,7 @@ The conclusion above does not mean every ojol driver in Indonesia earns the same
 - missing cost items are not silently imputed or assigned zero;
 - unexpected mechanical, health, and crime-related risks without observed monetary values are described narratively and are **not assigned assumed nominal costs**.
 
-These boundaries limit the precision and generalizability of the conclusion, but they do not erase the substantive pattern visible in the evidence.
+**These limitations constrain national generalization; they do not alter the finding of weak income adequacy and substantial economic pressure in the analyzed survey contexts.**
 
 ## Regulatory Context
 
@@ -131,6 +131,6 @@ The evidence is concrete. Across the IDEAS source snapshots, mean gross daily ea
 
 The driver also carries costs and risks beyond the headline daily bundle: mobile/data, servicing, oil changes, tires, brake pads, batteries, spare parts, vehicle tax, and other vehicle-related expenses. Unexpected costs such as flat tires, sudden breakdowns, towing or transport needs, and damaged work equipment are not assigned invented nominal values, but they still represent real exposure. Accidents, illness, fraudulent orders or payments, robbery or violent theft, ordinary theft, other crime-related losses, vehicle breakdown, and downtime can further reduce usable income or productive working time.
 
-**The study’s final conclusion is therefore clear: in the survey evidence analyzed, ojol work delivers weak income adequacy. Drivers face a substantial economic squeeze because the income remaining after routine costs is already limited, while long working hours, maintenance needs, unexpected expenses, inflation, and work and security risks compress that margin further. The economic return is often weak relative to the costs, time, and risks required to earn it.**
+**The study’s final conclusion is clear: ojol work in the analyzed survey contexts delivers weak income adequacy and a materially compressed economic margin. Drivers face a substantial economic squeeze because the income remaining after routine costs is already limited, while long working hours, maintenance needs, unexpected expenses, inflation, and work and security risks compress that margin further. The economic return is often weak relative to the costs, time, and risks required to earn it.**
 
-Methodological limits determine how far this conclusion can be generalized; they do not change the direction of the finding itself.
+The methodological limits define the scope of this conclusion; they do not weaken or reverse the finding itself.
