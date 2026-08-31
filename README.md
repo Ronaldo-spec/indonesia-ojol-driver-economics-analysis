@@ -125,10 +125,12 @@ Analytical values remain classified as `observed`, `source_reported`, `derived`,
 
 ## Final Verdict
 
-**The main conclusion is not that the economics are unknowable. The evidence shows that ojol drivers in the analyzed survey contexts face a substantial economic squeeze.**
+**Ojol driver economics in the analyzed survey contexts show weak income adequacy and a materially compressed economic margin.**
 
-Gross earnings are limited, daily cost burdens absorb a large and rising share of gross income, reported deductions are material, and long working hours are common. Where a local wage benchmark is available, post-cost income is far below the formal minimum-wage benchmark despite longer-than-standard working time. Positive inflation further weakens purchasing-power conditions around the later snapshot.
+The evidence is concrete. Across the IDEAS source snapshots, mean gross daily earnings move from **Rp168,000 in 2023 to Rp126,000 in 2025**, while the fuel + food/drink bundle moves from **Rp53,000/day (31% of gross) to Rp58,000/day (46%)**. Under the source’s own net-income definition, the monthly estimate moves from about **Rp2.9 million to Rp1.7 million**. In Bekasi 2023, post-cost income of about **Rp2.6 million was only around 53% of the local UMK**, despite average working time of **11.5 hours per day**. Positive inflation adds further purchasing-power pressure.
 
-The pressure also extends beyond routinely measured expenses. Drivers personally carry vehicle-maintenance costs and may encounter unexpected mechanical costs for which this project does not invent nominal values. They also face accident and illness risk, fraudulent orders or payments, robbery or violent theft, ordinary theft, other crime-related losses, vehicle breakdown, and downtime. These risks can reduce the amount left directly or through lost productive time.
+The driver also carries costs and risks beyond the headline daily bundle: mobile/data, servicing, oil changes, tires, brake pads, batteries, spare parts, vehicle tax, and other vehicle-related expenses. Unexpected costs such as flat tires, sudden breakdowns, towing or transport needs, and damaged work equipment are not assigned invented nominal values, but they still represent real exposure. Accidents, illness, fraudulent orders or payments, robbery or violent theft, ordinary theft, other crime-related losses, vehicle breakdown, and downtime can further reduce usable income or productive working time.
 
-The exact national daily take-home amount cannot be reduced to one universal number from the current evidence, but the direction of the economic conclusion is clear: **the income left to drivers is under pressure and is often weak relative to the costs, time, and risks they carry.**
+**The study’s final conclusion is therefore clear: in the survey evidence analyzed, ojol work delivers weak income adequacy. Drivers face a substantial economic squeeze because the income remaining after routine costs is already limited, while long working hours, maintenance needs, unexpected expenses, inflation, and work and security risks compress that margin further. The economic return is often weak relative to the costs, time, and risks required to earn it.**
+
+Methodological limits determine how far this conclusion can be generalized; they do not change the direction of the finding itself.
